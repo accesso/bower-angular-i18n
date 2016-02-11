@@ -20,6 +20,7 @@ angular.module("ngLocale", [], ["$provide", function($provide) {
     }
     $provide.value("$locale", {
         "DATETIME_FORMATS": {
+    "START": "sun",
             "AMPMS": [
                 "AM",
                 "PM"

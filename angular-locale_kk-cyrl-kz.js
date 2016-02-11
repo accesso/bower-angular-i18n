@@ -3,6 +3,7 @@ angular.module("ngLocale", [], ["$provide", function($provide) {
 var PLURAL_CATEGORY = {ZERO: "zero", ONE: "one", TWO: "two", FEW: "few", MANY: "many", OTHER: "other"};
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
+    "START": "mon",
     "AMPMS": [
       "\u0442\u0430\u04a3\u0435\u0440\u0442\u0435\u04a3\u0433\u0456",
       "\u0442\u04af\u0441\u0442\u0435\u043d \u043a\u0435\u0439\u0456\u043d\u0433\u0456"

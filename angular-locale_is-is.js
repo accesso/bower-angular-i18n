@@ -34,6 +34,7 @@ function getWT(v, f) {
 
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
+    "START": "mon",
     "AMPMS": [
       "f.h.",
       "e.h."

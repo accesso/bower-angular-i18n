@@ -21,6 +21,7 @@ function getVF(n, opt_precision) {
 
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
+    "START": "sun",
     "AMPMS": [
       "\u092b\u0941\u0902",
       "\u092c\u0947\u0932\u093e\u0938\u0947"
