@@ -121,7 +121,7 @@ angular.module("ngLocale", [], ["$provide", function($provide) {
             "shortTime": "HH.mm"
         },
         "NUMBER_FORMATS": {
-            "CURRENCY_SYM": "kr",
+            "CURRENCY_SYM": "DKK",
             "DECIMAL_SEP": ",",
             "GROUP_SEP": ".",
             "PATTERNS": [
