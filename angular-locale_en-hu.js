@@ -118,8 +118,8 @@ $provide.value("$locale", {
       }
     ]
   },
-  "id": "hu-en",
-  "localeID": "hu_EN",
+  "id": "en-hu",
+  "localeID": "en_HU",
   "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
